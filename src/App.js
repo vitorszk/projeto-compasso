@@ -1,13 +1,15 @@
 import React from 'react'
 import theme from './constants/themes';
 import Router from './routes/router';
-import { ThemeProvider } from '@material-ui/core/styles';
+import Background from './assets/Background.jpg';
+import './index.css';
 
 const App = () => {
   return (
-    <ThemeProvider theme={theme}>
+    <div className="ScreenContainer">
+      <img className="HomePageContainer__Background" src={Background} />
       <Router />
-    </ThemeProvider>
+    </div>
   );
 }
 

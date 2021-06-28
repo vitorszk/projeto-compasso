@@ -1,0 +1,28 @@
+.UserCard__img img {
+    transition: 0.9s ease-in-out;
+}
+
+.UserCard__img img:hover {
+    cursor: pointer;
+    filter: grayscale(0.6);
+}
+
+li {
+    transition: 0.1s ease-in-out;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+}
+
+li:first-child, li:nth-child(2) {
+    color: rgb(151, 151, 151);
+
+}
+
+li:first-child:hover, li:nth-child(2):hover {
+    cursor: default;
+    background-color: white;
+
+}

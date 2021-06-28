@@ -1,0 +1,20 @@
+.UserContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+}
+
+.UserContainer__Card {
+    margin: 50px;
+    display:flex;
+    width: 500px;
+    height: auto;
+}
+
+.UserContainer__Card--img {
+    width: 100%;
+    height: auto;
+}
